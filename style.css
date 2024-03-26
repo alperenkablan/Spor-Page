@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: #dd0000;
+    font-size: 55px;
+    text-align: center;
+}
+a{
+    color: burlywood;
+    text-decoration: none;
+}
+p{
+    font-family:fantasy
+}
+.nav{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 25px;
+    flex:auto;
+    
+}
+.nav li { 
+    display: inline;
+    padding: 25px;
+
+}
+.img{
+    margin-top: 25px;
+    width: 75px;
+    height: 75px;
+}
+.conteiner{
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+    flex-direction: row;
+    align-items: center;
+}
+.futbol{
+    display: flex;
+    margin-top: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
+    align-items: center;
+}
+.tenis{
+    display: flex;
+    margin-top: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.yuzme{
+    display: flex;
+    margin-top: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+footer{
+    /* position: fixed;
+    bottom: 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(172, 102, 16);
+    padding-inline: 100px;
+    height: 75px;
+
+    
+
+}
+.ss{
+    margin-top:150px;
+    margin-right: 350px;
+    margin-left: 350px;
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
