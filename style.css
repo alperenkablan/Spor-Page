@@ -62,8 +62,9 @@ p{
     align-items: center;
 }
 footer{
-    /* position: fixed;
-    bottom: 0; */
+    position: fixed;
+    bottom: 0;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,6 +72,7 @@ footer{
     background-color: rgb(172, 102, 16);
     padding-inline: 100px;
     height: 75px;
+    width: 100%;
 
     
 
